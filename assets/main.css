@@ -1,0 +1,49 @@
+.header {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.header .active {
+    color: var(--primar-color);
+}
+
+.header .bar {
+    display: none;
+}
+
+.list a {
+    color: #0D0E43;
+    font-family: var(--main-f-family);
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .list,
+    .search {
+        display: none;
+    }
+
+    .header .bar {
+        display: block;
+    }
+
+}
+
+.search form {
+    border: #E7E6EF 2px solid;
+}
+
+.search form input {
+    border: none;
+    outline: none;
+    width: 275px;
+    padding-left: 10px;
+}
+
+.search form button {
+    border: none;
+    outline: none;
+    background-color: var(--primar-color);
+    padding: 6px 13px;
+}
