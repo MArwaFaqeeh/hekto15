@@ -1,3 +1,5 @@
+/*start header*/
+
 .header {
     background-color: white;
     padding: 40px 0;
@@ -20,7 +22,7 @@
 @media screen and (max-width:1200px) {
 
     .list,
-    .search {
+    .header .search {
         display: none;
     }
 
@@ -32,13 +34,15 @@
 
 .search form {
     border: #E7E6EF 2px solid;
+    display: flex;
 }
 
 .search form input {
     border: none;
     outline: none;
-    width: 275px;
+    width: 240px;
     padding-left: 10px;
+
 }
 
 .search form button {
@@ -47,3 +51,69 @@
     background-color: var(--primar-color);
     padding: 6px 13px;
 }
+
+/*end header*/
+
+/*start footer*/
+
+.footer {
+    background-color: #EEEFFB;
+    padding: 80px 0;
+
+}
+
+.footer .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.footer input::placeholder {
+    color: #8A8FB9;
+}
+
+.footer .row {
+    align-items: flex-start;
+}
+
+.right-side a {
+    font-family: var(--main-f-family);
+    color: #8A8FB9;
+    font-size: 16px;
+}
+
+.footer .right-side h2 {
+    font-family: var(--main-f-family);
+    font-size: 22px;
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .footer .right-side,
+    .footer .left-side {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+
+    .footer .footer-item {
+        width: 100%;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .footer .right-side h2 {
+        margin-top: 20px;
+
+    }
+}
+
+/*end footer*/

@@ -8,7 +8,23 @@
     --primar-color: #FB2E86;
     --main-f-family: "Lato", sans-serif;
     --secondary-f-family: "Josefin Sans", sans-serif;
-    
+
+}
+
+.main-f-family {
+    font-family: var(--main-f-family);
+}
+
+.secondary-f-family {
+    font-family: var(--secondary-f-family);
+}
+
+.white-color {
+    color: white;
+}
+
+.footer-color {
+    color: #8A8FB9;
 }
 
 .btn {
@@ -133,6 +149,16 @@ ul {
 
 .mb-4 {
     margin-bottom: 20px;
+
+}
+
+.mb-5 {
+    margin-bottom: 25px;
+
+}
+
+.mb-8 {
+    margin-bottom: 40px;
 
 }
 
@@ -336,11 +362,29 @@ ul {
 .g-5 {
     gap: 25px;
 }
+
 .g-6 {
     gap: 30px;
 }
+
 .g-7 {
     gap: 35px;
+}
+
+.g-8 {
+    gap: 40px;
+}
+
+.g-9 {
+    gap: 45px;
+}
+
+.g-10 {
+    gap: 50px;
+}
+
+.g-11 {
+    gap: 55px;
 }
 
 .justify-center {
@@ -359,8 +403,14 @@ ul {
     justify-content: space-around;
 }
 
+.justify-start {
+    justify-content: flex-start;
+
+}
+
 .justify-between {
     justify-content: space-between;
+
 
 }
 
@@ -426,8 +476,6 @@ ul {
 .column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -488,7 +536,27 @@ ul {
 .container-300 {
     padding: 0 300px;
 }
-.container{
+
+.container {
     width: calc(100% - 370px);
     margin: auto;
+}
+
+
+@media screen and (max-width:1400px) {
+    .container {
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        width: calc(100% - 40px);
+    }
 }
