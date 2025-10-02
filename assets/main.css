@@ -54,6 +54,7 @@
 
 /*end header*/
 
+
 /*start hero*/
 .hero {
     background-color: #F2F0FF;
@@ -138,6 +139,170 @@
 }
 
 /*end hero*/
+
+/*start Featured Products*/
+
+.featured-products {
+    padding: 130px 0;
+}
+
+.featured-products .row {
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.featured-products .product {
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px #00000040;
+    flex: 1 0 300px;
+    border-radius: 4px;
+    position: relative;
+
+}
+
+.img-product {
+    background-color: #F6F7FB;
+    padding: 38px 30px;
+    position: relative;
+
+}
+
+.img-product img {
+    mix-blend-mode: multiply;
+    object-fit: contain;
+
+}
+
+.featured-products h2 {
+    color: #1A0B5B;
+    font-size: 42px;
+    font-family: var(--secondary-f-family);
+    font-weight: 900;
+
+}
+
+.b-color {
+    width: 14px;
+    height: 4px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.color-three {
+    background-color: #00009D;
+    transition: all 0.6s;
+}
+
+.color-one {
+    background-color: #05E6B7;
+
+}
+
+.color-two {
+    background-color: #F701A8;
+
+}
+
+.span-color {
+    color: #151875;
+    transition: all 0.6s;
+}
+
+.product-details {
+    transition: all 0.6s;
+}
+
+.product:hover .product-details {
+    background-color: #2F1AC4;
+    color: white;
+}
+
+.product-details h3 {
+    transition: all 0.6s;
+}
+
+.product:hover .product-details h3 {
+    color: white;
+}
+
+
+.product:hover .color-three {
+    background-color: #FFEAC1;
+}
+
+.product-info span {
+    transition: all 0.6s;
+}
+
+.product:hover .product-info span {
+    color: white;
+}
+
+.product:hover .icons {
+    opacity: 1;
+        z-index: 1;   
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0;
+    transition: all 0.6s;
+           
+
+}
+.icons button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.view-detaila {
+  position: absolute;
+  bottom: 10px;    
+   left: 40%;
+   transition: all 0.6s;
+
+  padding: 8px 13px;
+  border-radius: 2px;
+  border: none;
+outline: none;
+  opacity: 0;
+  cursor: pointer;
+font-size: 12px;
+font-weight: normal;
+  font-family: var(--secondary-f-family);
+}
+
+.product:hover .view-detaila {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end Featured Products*/
 
 /*start footer*/
 

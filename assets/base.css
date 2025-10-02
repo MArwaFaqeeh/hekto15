@@ -6,6 +6,7 @@
 
 :root {
     --primar-color: #FB2E86;
+   
     --main-f-family: "Lato", sans-serif;
     --secondary-f-family: "Josefin Sans", sans-serif;
 
@@ -41,6 +42,9 @@
 .btn-primary {
     background-color: var(--primar-color);
     font-family: var(--secondary-f-family);
+}
+.btn-sec{
+    background-color: #08D15F;
 }
 
 a {
@@ -417,6 +421,9 @@ ul {
 .justify-between {
     justify-content: space-between;
 
+}
+.align-center{
+ align-items: center;
 
 }
 
@@ -560,10 +567,6 @@ ul {
 
 .z-index-2 {
     z-index: 2;
-}
-
-.container-300 {
-    padding: 0 300px;
 }
 
 .container {
