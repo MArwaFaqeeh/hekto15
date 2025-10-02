@@ -10,7 +10,9 @@
     --secondary-f-family: "Josefin Sans", sans-serif;
 
 }
-
+.primar-color{
+    color:var(--primar-color)
+}
 .main-f-family {
     font-family: var(--main-f-family);
 }
@@ -25,6 +27,7 @@
 
 .footer-color {
     color: #8A8FB9;
+   
 }
 
 .btn {
@@ -192,6 +195,9 @@ ul {
 
 .ml-4 {
     margin-left: 20px;
+}
+.ml-50{
+ margin-left: 200px
 }
 
 .mtb-1 {
@@ -446,9 +452,32 @@ ul {
     font-size: 15px;
 }
 
+
 .f-size-4 {
     font-size: 20px;
 }
+.f-size-5 {
+    font-size: 25px;
+}
+
+.f-size-6{
+    font-size: 30px;
+}
+.f-size-7 {
+    font-size: 35px;
+}
+.f-size-8 {
+    font-size: 40px;
+}
+.f-size-10 {
+    font-size: 50px;
+}
+.f-size-11 {
+    font-size: 55px;
+}
+
+
+
 
 .border-radius-1 {
     border-radius: 5px;
@@ -540,6 +569,9 @@ ul {
 .container {
     width: calc(100% - 370px);
     margin: auto;
+}
+.bold{
+     font-weight:700;
 }
 
 

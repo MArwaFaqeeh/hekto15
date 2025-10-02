@@ -54,6 +54,91 @@
 
 /*end header*/
 
+/*start hero*/
+.hero {
+    background-color: #F2F0FF;
+    padding: 40px 0;
+    position: relative;
+}
+
+.light {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.text-hero {
+    margin-bottom: 50px;
+    align-items: flex-start;
+    gap: 15px;
+    width: 500px;
+}
+
+.hero h1 {
+    font-weight: 600;
+    line-height: 170.5%;
+    letter-spacing: 1.5%;
+}
+
+.text-hero p {
+    font-weight: 700;
+    line-height: 28px;
+}
+
+
+@media screen and (max-width:1670px) {
+    .light {
+        display: none;
+    }
+
+    .text-hero {
+        margin-left: 0;
+    }
+
+    .img-hero img {
+        width: 400px;
+        height: 689px;
+
+    }
+
+    .text-hero h1 {
+        font-size: 38px;
+        line-height: 140%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .hero .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-hero {
+        align-items: center;
+    }
+
+    .text-hero h1 {
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .img-hero img {
+        width: 300px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:776px) {
+
+    .text-hero {
+        width: 100%;
+    }
+
+}
+
+/*end hero*/
+
 /*start footer*/
 
 .footer {
