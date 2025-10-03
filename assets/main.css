@@ -449,6 +449,7 @@
     margin: 0 auto;
 
 }
+
 /*end What Shopex Offer!*/
 
 /*start Trending Products*/
@@ -460,60 +461,116 @@
     margin-bottom: 55px;
     padding-top: 25px;
 }
-.trending-product .old-price{
-     color: #1A0B5B;
+
+.trending-product .old-price {
+    color: #1A0B5B;
     opacity: 0.3;
     text-decoration: line-through;
 }
-.trending-product{
+
+.trending-product {
     padding-bottom: 135px;
 }
-.trending-product .product{
+
+.trending-product .product {
     flex: 1 0 247px;
     width: calc((100% - 90px) / 4);
-    padding: 11px 12px ;
-    background: #fff;          
-    border: 1px solid #EAEAEA;  
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
-   gap: 30px;
-   width: 247x;
+    padding: 11px 12px;
+    background: #fff;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    gap: 30px;
+    width: 247x;
 }
 
 .trending-product .img-trendign {
-    background: #F0F1F6;  
-    width: 200px;           
-    height: 245px;  
+    background: #F0F1F6;
+    width: 200px;
+    height: 245px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    margin: 0 auto;  
-   
+    margin: 0 auto;
+
 }
 
 .trending-product .img-trendign img {
-    object-fit: contain;   
+    object-fit: contain;
 }
 
 @media screen and (max-width: 400px) {
-.trending-product .product{
-    padding: 5px 5px;
-    width: 200px;  
+    .trending-product .product {
+        padding: 5px 5px;
+        width: 200px;
+    }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /*end Trending Products*/
+
+/*start Top Categories*/
+
+.Top-Categories {
+    padding-bottom: 135px;
+}
+
+.Top-Categories h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 56px;
+}
+
+.Top-Categories .category {
+    flex: 1 0 270px;
+    width: calc((100% - 90px) / 4);
+
+}
+
+.Top-Categories h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Top-Categories .view {
+    position: absolute;
+    bottom: 30px;
+    width: 94px;
+    height: 24px;
+    padding: 9px 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.category :hover .view {
+    opacity: 1;
+}
+
+.Top-Categories .img-category {
+    background-color: #F6F7FB;
+    width: 269px;
+    height: 269px;
+    border-radius: 269px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.6s;
+}
+
+.Top-Categories .category:hover .img-category {
+    border-bottom: 0.2px solid #9877E7;
+    border-left: 8px solid #9877E7;
+}
+
+
+/*end Top Categories*/
 
 /*start footer*/
 
