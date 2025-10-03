@@ -582,7 +582,7 @@
     text-align: center;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 135px;
+    margin-bottom: 100px;
 }
 
 .Newslater h2 {
@@ -591,6 +591,20 @@
 }
 
 /*end Newslater*/
+
+/*start clients*/
+
+.clients {
+    margin-bottom: 100px;
+}
+
+.clients .row {
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+/*end clients*/
 
 /*start footer*/
 
