@@ -572,6 +572,26 @@
 
 /*end Top Categories*/
 
+/* start Newslater*/
+.Newslater {
+    background-image: url(../assets/img/Newslater/Rectangle.png);
+    padding: 130px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 135px;
+}
+
+.Newslater h2 {
+    line-height: 155%;
+    letter-spacing: 0.015em;
+}
+
+/*end Newslater*/
+
 /*start footer*/
 
 .footer {
