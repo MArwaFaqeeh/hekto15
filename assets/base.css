@@ -74,6 +74,9 @@ ul {
     list-style-type: none;
 }
 
+.m-auto{
+     margin: 0 auto;
+}
 .d-flex {
     display: flex;
 }
@@ -478,6 +481,9 @@ ul {
 
 .f-size-2 {
     font-size: 10px;
+}
+.f-size-1-2{
+font-size: 12px;
 }
 
 .f-size-3 {
