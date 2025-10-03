@@ -6,14 +6,16 @@
 
 :root {
     --primar-color: #FB2E86;
-   
+
     --main-f-family: "Lato", sans-serif;
     --secondary-f-family: "Josefin Sans", sans-serif;
 
 }
-.primar-color{
-    color:var(--primar-color)
+
+.primar-color {
+    color: var(--primar-color)
 }
+
 .main-f-family {
     font-family: var(--main-f-family);
 }
@@ -28,8 +30,24 @@
 
 .footer-color {
     color: #8A8FB9;
-   
+
 }
+
+.product-color {
+    color: #151875;
+}
+
+.color-icon {
+
+    color: #2F1AC4;
+    font-size: 19px;
+
+}
+
+.color-icons {
+    color: #1DB4E7;
+}
+
 
 .btn {
     border: none;
@@ -43,7 +61,8 @@
     background-color: var(--primar-color);
     font-family: var(--secondary-f-family);
 }
-.btn-sec{
+
+.btn-sec {
     background-color: #08D15F;
 }
 
@@ -200,8 +219,9 @@ ul {
 .ml-4 {
     margin-left: 20px;
 }
-.ml-50{
- margin-left: 200px
+
+.ml-50 {
+    margin-left: 200px
 }
 
 .mtb-1 {
@@ -282,6 +302,10 @@ ul {
 
 .pb-4 {
     padding-bottom: 20px;
+}
+
+.pb-12 {
+    padding-bottom: 60px;
 }
 
 .ptb-1 {
@@ -422,8 +446,9 @@ ul {
     justify-content: space-between;
 
 }
-.align-center{
- align-items: center;
+
+.align-center {
+    align-items: center;
 
 }
 
@@ -463,22 +488,27 @@ ul {
 .f-size-4 {
     font-size: 20px;
 }
+
 .f-size-5 {
     font-size: 25px;
 }
 
-.f-size-6{
+.f-size-6 {
     font-size: 30px;
 }
+
 .f-size-7 {
     font-size: 35px;
 }
+
 .f-size-8 {
     font-size: 40px;
 }
+
 .f-size-10 {
     font-size: 50px;
 }
+
 .f-size-11 {
     font-size: 55px;
 }
@@ -573,8 +603,9 @@ ul {
     width: calc(100% - 370px);
     margin: auto;
 }
-.bold{
-     font-weight:700;
+
+.bold {
+    font-weight: 700;
 }
 
 
