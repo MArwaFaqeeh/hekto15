@@ -408,7 +408,48 @@
 
 /*end Leatest Products*/
 
+/* start What Shopex Offer!*/
 
+.offers {
+    padding-bottom: 135px;
+    padding-top: 75px;
+}
+
+.offers .offer {
+    width: calc((100% - 90px) / 4);
+    background: #fff;
+    padding: 45px 26px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    flex: 1 0 270px;
+}
+
+.offers h2 {
+    font-size: 42px;
+    font-weight: 900;
+    font-family: var(--secondary-f-family);
+    margin-bottom: 55px;
+    padding-top: 55px;
+}
+
+.offers h3 {
+    font-size: 22px;
+    font-family: var(--secondary-f-family);
+    font-weight: 500;
+}
+
+.offer p {
+    color: #1A0B5B;
+    opacity: 0.3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    width: 217px;
+    margin: 0 auto;
+
+}
+/*end What Shopex Offer!*/
 
 /*start footer*/
 
