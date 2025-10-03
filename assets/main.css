@@ -606,6 +606,67 @@
 
 /*end clients*/
 
+/*start Leatest Blog*/
+.blogs {
+    margin-bottom: 124px;
+}
+
+.blogs h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 55px;
+
+}
+
+.blogs .blog {
+    width: 370px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 470px;
+
+}
+
+.blogs h3 {
+    font-size: 18px;
+    font-weight: 900;
+    transition: all 0.6s;
+}
+
+.blogs a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: underline;
+    transition: all 0.6s;
+
+}
+
+.blog:hover a {
+    color: var(--primar-color);
+}
+
+.blog:hover h3 {
+    color: var(--primar-color);
+}
+
+@media screen and (max-width: 1600px) {
+    .blogs .row {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .blog img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/*end Leatest Blog*/
+
 /*start footer*/
 
 .footer {

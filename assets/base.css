@@ -48,6 +48,10 @@
     color: #1DB4E7;
 }
 
+.color-gray {
+    color: #72718F;
+}
+
 
 .btn {
     border: none;
@@ -187,6 +191,11 @@ ul {
 
 }
 
+.mb-7 {
+    margin-bottom: 35px;
+
+}
+
 .mb-8 {
     margin-bottom: 40px;
 
@@ -224,6 +233,10 @@ ul {
     margin-left: 20px;
 }
 
+.ml-5 {
+    margin-left: 25px;
+}
+
 .ml-50 {
     margin-left: 200px
 }
@@ -241,6 +254,10 @@ ul {
 }
 
 .mtb-4 {
+    margin: 20px 0;
+}
+
+.mtb-7 {
     margin: 20px 0;
 }
 
@@ -484,6 +501,10 @@ ul {
     font-size: 10px;
 }
 
+.f-size-1-4 {
+    font-size: 14px;
+}
+
 .f-size-1-2 {
     font-size: 12px;
 }
@@ -521,7 +542,9 @@ ul {
     font-size: 55px;
 }
 
-
+.line-height-30 {
+    line-height: 30px;
+}
 
 
 .border-radius-1 {
